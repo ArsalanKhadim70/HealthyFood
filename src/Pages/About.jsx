@@ -6,14 +6,9 @@ const AboutSection = () => {
         <section id="about" className="relative w-full max-w-6xl mx-auto px-4 py-12 font-sans bg-white overflow-hidden">
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-
-                {/* Left Side: Images Section */}
                 <div className="lg:col-span-6 relative flex items-center justify-center min-h-[350px] sm:min-h-[400px]">
 
-
-
                     {/* Main Image Container */}
-                    {/* Yahan se 'border border-gray-100' hata diya gaya hai */}
                     <div className="w-[92%] sm:w-[88%] rounded-3xl overflow-hidden shadow-sm ml-auto">
                         <img
                             src={mainAbout}
@@ -22,8 +17,7 @@ const AboutSection = () => {
                         />
                     </div>
 
-                    {/* Small Overlapping Image (Bottom Left) */}
-                    {/* Yahan se 'border-4 border-white' hata diya gaya hai */}
+                    
                     <div className="absolute left-0 bottom-0 w-40 h-28 sm:w-52 sm:h-36 rounded-2xl overflow-hidden shadow-lg z-10">
                         <img
                             src="/images/03_about_chef_inset.png"
@@ -55,7 +49,7 @@ const AboutSection = () => {
                         ABOUT HEALTHIFY
                     </span>
 
-                    {/* Main Heading (Size reduced & balanced) */}
+                    
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-emerald-950 font-bold leading-tight">
                         Your Trusted Healthy <br className="hidden sm:inline" /> Food Partner
                     </h2>

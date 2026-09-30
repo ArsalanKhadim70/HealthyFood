@@ -12,7 +12,6 @@ import Footer from './Compountes/Footer.jsx'
 
 const App = () => {
   return (
-    // <div className="px-4 sm:px-6 md:px-8 lg:mx-[10%]">
     <div className="mx-4 sm:mx-[10%]">
       <Home />
       <About />
