@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
+import MainLogo from '../assets/images/Navbar_Logo.png'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -17,7 +18,7 @@ const Navbar = () => {
         <>
             {/* Desktop Navbar */}
             <div className='flex items-center justify-between text-sm py-4 mb-5'>
-                <a href="#home"><img className='w-15 cursor-pointer' src="\images\13_logo.png" alt="" /></a>
+                <a href="#home"><img className='w-15 cursor-pointer' src={MainLogo} alt="" /></a>
 
                 {/* Desktop Menu */}
                 <ul className='hidden md:flex items-start gap-5 font-medium'>
